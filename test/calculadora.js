@@ -120,7 +120,7 @@ describe('Calculadora', function() {
         });
 
 		describe('Multiplicar', function() {
-			it('Deveria retornar 4 quando for passado 1 e 4.', function() {
+			it('Deveria retornar 4 quando for passado os numeros 1 e 4.', function() {
 				var numero1 = 1;
 				var numero2 = 4;
 				
