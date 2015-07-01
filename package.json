@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasN7Alves/ProjetoPI.git"
+    "url": "https://github.com/Junnz/Pi.git"
   },
   "scripts": {
     "start": "node server.js",
@@ -14,7 +14,7 @@
   "engines": {
     "node": "0.12.2"
   },
-  "homepage": "https://github.com/LucasN7Alves/ProjetoPI",
+  "homepage": "https://github.com/Junnz/Pi",
   "dependencies": {
     "accounting": "^0.4.1",
     "body-parser": "^1.12.4",
@@ -30,6 +30,6 @@
     "protractor": "^2.1.0",
     "should": "^6.0.3"
   },
-  "author": "Lucas Nunes ",
-  "license": "MIT"
+  "author": "Wilson Junior ",
+  "license": "NOS"
 }

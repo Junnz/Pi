@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: 3fd51bf7-738c-41ec-b371-c989a2cb49e6
-  app: api-test-lucas
+    secure: b6f55077-1a1b-406c-a420-da643bbbad40
+  app: wilson-node
   on:
-    repo: LucasN7Alves/node-app
+    repo: Junnz/Pi
