@@ -57,29 +57,6 @@ describe('Calculadora', function() {
 			
 		});
 
-        describe('MultaLivro', function() {
-            it('Deveria retornar 6 quando for passado 6.', function() {
-                var numero1 = 6;
-
-                var resultado = controller.utils.calculos.multaLivro(numero1);
-
-                resultado.should.be.a.Number;
-                resultado.should.be.equal(6);
-            });
-
-        });
-
-        describe('MultaObraReferencia', function() {
-            it('Deveria retornar 9 quando for passado 3.', function() {
-                var numero1 = 3;
-
-                var resultado = controller.utils.calculos.multaObraReferencia(numero1);
-
-                resultado.should.be.a.Number;
-                resultado.should.be.equal(9);
-            });
-
-        });
 
         describe('SomaMultaObraReferenciaApos40dias', function() {
             it('Deveria retornar 120 quando for passado 3.', function() {
@@ -93,29 +70,6 @@ describe('Calculadora', function() {
 
         });
 
-        describe('MultaRevista', function() {
-            it('Deveria retornar 8 quando for passado 4.', function() {
-                var numero1 = 4;
-
-                var resultado = controller.utils.calculos.multaRevista(numero1);
-
-                resultado.should.be.a.Number;
-                resultado.should.be.equal(8);
-            });
-
-        });
-
-        describe('MultaJornal', function() {
-            it('Deveria retornar 15 quando for passado 3.', function() {
-                var numero1 = 3;
-
-                var resultado = controller.utils.calculos.multaJornal(numero1);
-
-                resultado.should.be.a.Number;
-                resultado.should.be.equal(15);
-            });
-
-        });
 
         describe('SomarMultaLivroapos30dias', function() {
             it('Deveria retornar 30 quando for passado 1.', function() {

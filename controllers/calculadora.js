@@ -39,9 +39,6 @@ module.exports = function() {
 					return numero1 / numero2;
 				},
 
-                multaLivro: function(numero1) {
-                    return numero1 * 1;
-                },
 
                 somarMultaLivroapos30dias: function(numero1) {
 
@@ -79,11 +76,7 @@ module.exports = function() {
                     return resultado;
                 },
 
-                multaObraReferencia: function(numero1) {
-                    return numero1 * 3;
-                },
-
-                somaMultaObraReferenciaApos40dias: function(numero1) {
+                        somaMultaObraReferenciaApos40dias: function(numero1) {
                     resultado = Number(0);
                     resultado += numero1;
                     resultado += 3;
@@ -127,11 +120,6 @@ module.exports = function() {
                     resultado += 3;
                     return resultado;
                 },
-
-                multaRevista: function(numero1) {
-                    return numero1 * 2;
-                },
-
                 somaMultaRevistaapos40dias: function(numero1) {
                     resultado = Number(0);
                     resultado += numero1;
@@ -175,10 +163,6 @@ module.exports = function() {
                     resultado += 2;
                     resultado += 2;
                     return resultado;
-                },
-
-                multaJornal: function(numero1) {
-                    return numero1 * 5;
                 },
 
                 somarMultaJornalapos40dias: function(numero1) {
